@@ -1,0 +1,6 @@
+namy = input('Enter your Name: ')
+print('Welcome ',namy)
+hour = input('Enter your hours:')
+rate = input('Enter your rate:')
+payout = float(hour) * float(rate)
+print('Your payout is: ',payout, namy)
