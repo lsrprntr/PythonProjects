@@ -98,7 +98,7 @@ while True:
         print("Unable to retrieve or parse page")
         cur.execute('UPDATE Pages SET error=-1 WHERE url=?', (url, ) )
         conn.commit()
-        continue
+        raise
 
     cur.execute('INSERT OR IGNORE INTO Pages (url, html, new_rank) VALUES ( ?, NULL, 1.0 )', ( url, ) )
     cur.execute('UPDATE Pages SET html=? WHERE url=?', (memoryview(html), url ) )
@@ -116,7 +116,7 @@ while True:
             href = urljoin(url, href)
         ipos = href.find('#')
         if ( ipos > 1 ) : href = href[:ipos]
-        if ( href.endswith('.png') or href.endswith('.jpg') or href.endswith('.gif') ) : continue
+        if ( href.endswith('.png') or href.endswith('.jpg') or href.endswith('.gif') or href.endswith('.pdf') or href.endswith('.txt')) : continue
         if ( href.endswith('/') ) : href = href[:-1]
         # print href
         if ( len(href) < 1 ) : continue
