@@ -1,4 +1,4 @@
 # PythonProjects
-#Files from PY4E Exercises
-
-#Some files from CodeKata testing
+Includes
+- Files from PY4E Exercises
+- Some files from CodeKata testing
