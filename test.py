@@ -1,3 +1,1 @@
-y="st;sdf;jun;"
-z=y.split(";")
-print(len(z))
+print((3**2+4**2)**(0.5))
