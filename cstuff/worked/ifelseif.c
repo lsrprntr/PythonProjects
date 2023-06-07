@@ -2,10 +2,6 @@
 
 int main(void)
 {
-    printf("Hello World!\n");
-    char name
-    name = "What is your name?";
-    printf("Hello, %s\n",name);
     int x = 1;
     int y = 2;
     if (x < y)
