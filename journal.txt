@@ -1,0 +1,47 @@
+﻿
+January
+1/1/2023
+I decided for this year I would try to make a career switch into programming. 
+
+For context, I was working as a finance analyst for the most part of my career and hoped to pursue further into the finance umbrella. I’ve poured many hours even subsidising certifications to supplement my qualifications at my own expense.
+
+I realised I enjoyed my work mostly when I was creating something. I liked being creative in my work. Where there was spreadsheets, there was different ways to show data or formulate a solution, to which I enjoyed the journey of the process.
+
+The greatest moments I’ve had with the role would be when I created a tool that dashboards a project financial life. A tool which performed the task well enough that co-workers would use it as well and even ask for more features. I found myself fixing and updating it with more and more features as time went on. You might even say I was ‘patching’ it.
+
+Obvious alluding aside, there are also more examples of this happening in my previous roles. I have been passive around the tech space and shelved it as a hobby thinking if I made it work then I’d take the fun out of it. It might be true for others, but in my case I felt bitter not being able to do more of it.
+
+That brings me to here why I am making this switch; because I think I would love it more than my current career.
+
+It is a huge risk (or gamble for non-financial backgrounds) for me to sink the ship and jump into the deep-end hoping for better waters. The nagging feeling of finding clearer waters outweighed the sunk cost of my current career. 
+
+So I resigned from my job.
+
+
+The goal.
+
+I want to work in back-end development.
+
+The plan.
+
+1. Learn a programming language.
+2. Follow boot camps until my portfolio is presentable.
+3. Apply for jobs.
+
+I admit I was naive with the original plan above and had to expand the steps later on. At least for step one, the internet recommended Python.
+
+Month 1
+
+I started slowly with the PY4E course by Chuck Severence (who is a great teacher), learning basic Python data concepts and following simple exercises. I found it gave me a good introduction to Python as a language but had a lingering feeling of ‘you could be doing more’. I upped the ante on the side with CodeWars, in which other users created code ‘kata’ similar to job interview tests but with varying difficulties. I started from the bottom and slowly worked up the levels. The environment was quite useful letting me tinker, test and submit my answers to only show to my disappointment that someone somewhere has written code that does it not only better but faster too (as well as in one line). 
+
+Month 2
+
+I want to say this is where I finished the course and moved on to the next step but I was impatient with my progress and tried some experimenting. With some of the knowledge from the Python course I did attempt to create crude programs with mostly failures. To the benefit of the language, you can definitely do it with Python but I do not have the knowledge yet. Armed with that phrase, I envisioned a simple discord bot, twitter API tester and a small web scraper.
+
+The Discord bot was beyond my level and Twitter changed their API requirements that month so I never got access but that small web scraper gave me hope.
+
+Month 3
+
+The web scraper was to parse through a holiday calendar website and export an .ics file for you to use. Ironically, it seemed the least feasible than the other two projects but I could finally see a method in completing the task. I finished the PY4E course and looked for more material.
+
+
