@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 void swap(int *a, int *b);
 
@@ -10,7 +11,7 @@ int main(void)
 
     printf("%i %i\n", x, y);
 
-    return;
+    return 0;
 
 }
 
