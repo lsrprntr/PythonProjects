@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Alias
+typedef int8_t DATATYPE;
+
 int main(void)
 {
     // File I/O commands
@@ -10,6 +13,9 @@ int main(void)
     fopen essentially finds the address of the file;
     it is assigned to pointer input;
     */
+    
+    DATATYPE buffer;
+    // store location | size of chunk | how many chunks | read location
+    fread(buffer,1,3,input)
 
-   
 }
