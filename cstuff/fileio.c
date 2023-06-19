@@ -15,12 +15,12 @@ int main(void)
     it is assigned to pointer input;
     */
     
-    DATATYPE buffer;
+    DATATYPE buffer[3];
     // store location | size of chunk | how many chunks | read location
     fread(buffer,1,3,input);
     // input pointer "remembers" last read location
 
-    for (int i = 0, i < 4; i++)
+    for (int i = 0; i < 3; i++)
     {
         printf("%i ", buffer[i]);
     }
