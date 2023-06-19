@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 // Alias
 typedef int8_t DATATYPE;
@@ -17,6 +18,12 @@ int main(void)
     DATATYPE buffer;
     // store location | size of chunk | how many chunks | read location
     fread(buffer,1,3,input);
-
     // input pointer "remembers" last read location
+
+    for (int i = 0, i < 4; i++)
+    {
+        printf("%i ", buffer[i]);
+    }
+
+    return 0;
 }
