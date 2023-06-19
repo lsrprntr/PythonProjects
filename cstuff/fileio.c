@@ -20,6 +20,9 @@ int main(void)
     fread(buffer,1,3,input);
     // input pointer "remembers" last read location
 
+    fclose(input);
+
+    // Test print
     for (int i = 0; i < 3; i++)
     {
         printf("%i ", buffer[i]);
