@@ -16,6 +16,7 @@ int main(void)
     
     DATATYPE buffer;
     // store location | size of chunk | how many chunks | read location
-    fread(buffer,1,3,input)
+    fread(buffer,1,3,input);
 
+    // input pointer "remembers" last read location
 }
