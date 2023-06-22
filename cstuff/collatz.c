@@ -2,9 +2,9 @@
 
 int collatz(int n);
 
+// Implement recursive function with more than one recursive case
 int main(void)
 {
-    
     printf("Enter a positive integer: ");
     int n;
     if (scanf("%d", &n) != 1)
