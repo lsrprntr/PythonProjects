@@ -23,6 +23,8 @@ int main(void)
     (*n).number = 2;
     (*n).ptr = q;
 
-
+    free(n);
+    free(q);
+    free(p);
     return 0;
 }
