@@ -10,6 +10,10 @@ int main(void)
 
     // FILE type | pointer | targetfile | read-mode
     FILE *input = fopen("hello.txt", "r");
+    if (input == NULL)
+    {
+        return 1;
+    }
     /* 
     fopen essentially finds the address of the file;
     it is assigned to pointer input;
