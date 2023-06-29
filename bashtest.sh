@@ -53,6 +53,8 @@ then
     sleep 1
   done
 '
+
+: '
 I=$1
 while [[ $I -ge 0 ]]
 do
@@ -63,8 +65,9 @@ done
 else 
   echo Include a positive integer as the first argument. 
 fi
+'
 
-: '
+: ' Comment 
 bash exercise world cup results table
 #! /bin/bash
 
