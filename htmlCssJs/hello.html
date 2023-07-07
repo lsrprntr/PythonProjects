@@ -74,9 +74,15 @@
 
             </table>
         </div>
+        <table>
+            <tr>
+                <td id="counter1">0</td>
+            </tr>
+        </table>
 
         <div>
             <button id="add1">Click me</button>
+            <button id="add2">Click me</button>
         </div>
 
         <script>
@@ -88,8 +94,9 @@
                 ...
             }
             */
-            document.querySelector('#add1')=function(){
-                ...
+            document.querySelector('#add1').onclick=function(){
+                count1++;
+                document.querySelector('#counter1').innerHTML=count1;
             }
 
             docu
