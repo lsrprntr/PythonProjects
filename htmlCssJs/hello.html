@@ -77,6 +77,7 @@
         <table>
             <tr>
                 <td id="counter1">0</td>
+                <td id="counter2">0</td>
             </tr>
         </table>
 
@@ -98,6 +99,10 @@
                 count1++;
                 document.querySelector('#counter1').innerHTML=count1;
             }
+            document.querySelector('#add2').addEventListener('click',function(){
+                count2++;
+                document.querySelector('#counter2').innerHTML=count2;
+            });
 
             docu
 
