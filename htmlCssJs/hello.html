@@ -39,11 +39,13 @@
             alert('hello, '+name);
         }
         // Alternate way/technique
-        document.querySelector('form').addEventListener('submit',function(event){
-            let name = document.querySelector('#nametext').value;
-            alert('hello, '+name);
-            event.preventDefault();
-        });
+        document.addEventListener('DOMContentLoaded',function(){
+            document.querySelector('form').addEventListener('submit',function(event){
+                let name = document.querySelector('#nametext').value;
+                alert('hello, '+name);
+                event.preventDefault();
+            });
+        }
     </script>
 
 </head>
