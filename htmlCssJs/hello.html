@@ -33,6 +33,17 @@
 
     </style>
     <script>
+        function checking()
+        {
+            let name = document.querySelector('#nametext').value;
+            alert('hello, '+name);
+        }
+        // Alternate way/technique
+        document.querySelector('form').addEventListener('submit',function(event){
+            let name = document.querySelector('#nametext').value;
+            alert('hello, '+name);
+            event.preventDefault();
+        });
     </script>
 
 </head>
@@ -43,8 +54,8 @@
             <p class="centered">Hello, world</p>
         </div>
         <div class="centered">
-            <form>
-                <input type="text">
+            <form onsubmit="checking();return false">
+                <input type="text" placeholder="Name" id="nametext">
                 <input type="submit">
             </form>
         </div>
