@@ -1,0 +1,10 @@
+Typical web app server
+
+#your python code
+app.py 
+#enumerate all 3rd party extensions you use
+requirements.txt
+#your static files
+static/
+#your htmls usually
+templates/
